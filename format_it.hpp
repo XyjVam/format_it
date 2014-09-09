@@ -30,6 +30,7 @@ For more information, please refer to <http://unlicense.org/>
 #include <vector>
 #include <deque>
 #include <cstring>
+#include <stdexcept>
 
 #define FORMAT_NO_INLINE __attribute__((noinline))
 

@@ -8,6 +8,7 @@
 #include "format_out.hpp"
 #include <string>
 #include <iterator>
+#include <iostream>
 
 struct print_through_ostream
 {
