@@ -13,7 +13,7 @@ SET( CMAKE_CXX_FLAGS_RELEASE "${CMAKE_CXX_FLAGS_RELEASE}" )
 
 SET( CMAKE_EXPORT_COMPILE_COMMANDS on )
 
-ADD_SUBDIRECTORY ( double_conversion )
+ADD_SUBDIRECTORY ( double_conversion EXCLUDE_FROM_ALL )
 ADD_EXECUTABLE(bin_format_it main.cpp)
 ADD_LIBRARY(format_it 
   format_float.cpp
